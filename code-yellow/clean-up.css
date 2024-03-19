@@ -1,0 +1,320 @@
+* {
+    background-color: #000000;
+    font-family: "Poppins", sans-serif;
+    color:  #e4e4e4;
+    letter-spacing: 2px;
+}
+
+
+.first-screen {
+    height: 95vh;
+}
+
+
+/* ABOUT & SIGNUP */
+
+li button {
+    border-style: none;
+}
+.signup {
+    margin-top: 0;
+    border-color: #D22C26;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* CONTAINER INCLUDING: LOGIN & IMAGE */
+.container {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: grid;
+    grid-template-rows: 20px 30px 1px 100px 220px 10px 100px;
+    grid-template-columns: 200px 1fr 100px 700px 1fr;
+
+}
+
+/* MURTHEHELP LOGO SA GEDLI */
+.logo-space {
+    float: left;
+}
+
+.logo-text {
+    color: #D22C26;
+}
+
+/* MENU SA TAAS */
+.navigation {
+    grid-row: 2 / 3;
+    grid-column: 1 / 6;
+}
+
+li {
+    list-style: none;
+    padding-right: 30px;
+}
+
+.menu {
+    float: right;
+    display: inline-flex;
+}
+
+.about:hover {
+    color: #929292;
+}
+
+.signup:hover {
+    border-color: #862420;
+    color: #929292;
+}
+
+/* YUNG LINE DON SA TAAS */
+.line {
+    grid-row: 3 / 3;
+    grid-column: 1 / 6;
+}
+
+/* color menu sa gitna */
+.color {
+    display: inline-flex;
+    margin-left: 28%;
+}
+
+.color li {
+    padding-right: 30px;
+    text-align: center;
+}
+
+
+
+/* SA TAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAS HIHIHIIHIHIHIHIHIH */
+.code-yellow-top-container {
+    display: grid;
+    grid-template-rows: 10px 350px 100px;
+    grid-template-columns: 15px 465px 465px 465px 15px;
+}
+
+.code-yellow-top-title {
+    margin-bottom: 0;
+    padding-top: 4%;
+    padding-left: 5%;
+    font-size: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #ECD057, #867631);
+    grid-row: 2 / 2;
+    grid-column: 1 / 5;
+    border-radius: 2px;
+    text-shadow: 3px 3px 10px #000000;
+}
+
+.code-yellow-top-description {
+    font-size: 25px;
+    margin-top: 0;
+    padding-left: 5px;
+    border-radius: 2px;
+    background: none;
+}
+
+
+
+/* WEAPONS */
+
+.yellow-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 250px 40px 250px 40px 250px 30px 250px;
+    grid-template-rows: 20px 100px 250px 100px 30px 250px 100px;
+}
+
+.yellow-top-title {
+    grid-row: 2 / 2;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+.title-bold {
+    font-weight: bold;
+}
+
+.description-18px {
+    font-size: 13px;
+}
+.yellow-sort-container {
+    grid-row: 1 / 1;
+    grid-column: 7 / 7;
+    border: none;
+    margin-top: 15%;
+}
+
+.yellow-sort-link {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e4e4;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+
+.yellow-product1 {
+    background-image: url(/images/yellow/ammonia.png);
+    background-size: cover;
+    grid-row: 3 / 3;
+}
+
+.yellow-product1-description {
+    margin-top: 5%;
+    grid-row: 4 / 4;
+}
+
+.yellow-product2 {
+    background-image: url(/images/yellow/biohazard\ waste\ bag.png);
+    background-size: cover;
+    grid-row: 3 / 3;
+    grid-column: 3 / 3;
+}
+
+.yellow-product2-description {
+    margin-top: 5%;
+    grid-row: 4 / 4;
+    grid-column: 3 / 3;
+}
+
+.yellow-product3 {
+    background-image: url(/images/yellow/bleach.png);
+    background-size: cover;
+    grid-row: 3 / 3;
+    grid-column: 5 / 5;
+}
+
+.yellow-product3-description {
+    margin-top: 5%;
+    grid-row: 4 / 4;
+    grid-column: 5 / 5;
+}
+
+.yellow-product4 {
+    background-image: url(/images/yellow/hydrogen\ peroxide.png);
+    background-size: cover;
+    grid-row: 3 / 3;
+    grid-column: 7 / 7;
+}
+
+.yellow-product4-description {
+    margin-top: 5%;
+    grid-row: 4 / 4;
+    grid-column: 7 / 7;
+}
+
+.yellow-product5 {
+    background-image: url(/images/yellow/isoprophyl\ alcohol.png);
+    background-size: cover;
+    grid-row: 6 / 6;
+}
+
+.yellow-product5-description {
+    margin-top: 5%;
+    grid-row: 7 / 7;
+}
+
+.yellow-product6 {
+    background-image: url(/images/yellow/latex\ gloves.png);
+    background-size: cover;
+    grid-row: 6 / 6;
+    grid-column: 3 / 3;
+}
+
+.yellow-product6-description {
+    margin-top: 5%;
+    grid-row: 7 / 7;
+    grid-column: 3 / 3;
+
+}
+
+.yellow-product7 {
+    background-image: url(/images/yellow/respiratory\ mask.png);
+    background-size: cover;
+    grid-row: 6 / 6;
+    grid-column: 5 / 5;
+}
+
+.yellow-product7-description {
+    margin-top: 5%;
+    grid-column: 5 / 5;
+    grid-row: 7 / 7;
+}
+
+
+/* LINE SA ILALIM */
+.bottom-line {
+    color: white;
+    width: 1140px;
+}
+
+/* FOOTNOTE */
+.footnote {
+    justify-content: center;
+    line-height: 30px;
+    display: grid;
+    grid-template-columns: 200px  200px  200px;
+    gap: 30px;
+}
+
+.categories {
+    grid-column: 1 / 1;;
+}
+
+.company-info {
+    grid-column: 2 / 2;
+}
+
+.support {
+    grid-column: 3 / 3;
+}
+
+.footnote-title {
+    font-weight: bold;
+}
+
+.copyright {
+    color: #aaaaaa;
+    text-align: center;
+    font-size: 11px;
+    background-color: #290708;
+}
+
+
+.categories li a {
+    color: #aaaaaa;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.categories li a:hover {
+    color: #d3d3d3;
+}
+
+.company-info li a {
+    color: #aaaaaa;
+    font-size: 13px;
+    cursor: pointer;
+}
+.company-info li a:hover {
+    color: #d3d3d3;
+}
+
+
+.support li a {
+    color: #aaaaaa;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.support li a:hover {
+    color: #d3d3d3;
+}

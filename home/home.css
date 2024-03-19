@@ -1,0 +1,531 @@
+* {
+    background-color: #000000;
+    font-family: "Poppins", sans-serif;
+    color:  #e4e4e4;
+    letter-spacing: 2px;
+}
+
+
+.first-screen {
+    height: 95vh;
+}
+
+
+/* ABOUT & SIGNUP */
+
+li button {
+    border-style: none;
+}
+.signup {
+    margin-top: 0;
+    border-color: #D22C26;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* CONTAINER INCLUDING: LOGIN & IMAGE */
+.container {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: grid;
+    grid-template-rows: 20px 30px 1px 100px 80px 200px 200px ;
+    grid-template-columns: 200px 1fr 100px 700px 1fr;
+
+}
+
+/* MURTHEHELP LOGO SA GEDLI */
+.logo-space {
+    float: left;
+}
+
+.logo-text {
+    color: #D22C26;
+}
+
+/* MENU SA TAAS */
+.navigation {
+    grid-row: 2 / 3;
+    grid-column: 1 / 6;
+}
+
+li {
+    list-style: none;
+    padding-right: 30px;
+}
+
+.menu {
+    float: right;
+    display: inline-flex;
+}
+
+
+
+/* YUNG LINE DON SA TAAS */
+.line {
+    grid-row: 3 / 3;
+    grid-column: 1 / 6;
+}
+
+/* color menu sa gitna */
+.color {
+    display: inline-flex;
+    margin-left: 28%;
+}
+
+.color li {
+    padding-right: 30px;
+    text-align: center;
+}
+
+/* container nf code red*/
+
+.code-red-container {
+    display: grid;
+    grid-template-columns: 150px 20px 150px 20px 150px 20px 150px 20px 100px 50px 20px 150px;
+    grid-template-rows: 300px 20px 150px;
+    justify-content: center;
+}
+
+.code-red {
+    margin-bottom: 0;
+    padding-top: 10%;
+    padding-left: 5%;
+    font-size: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #9B1D20, #350A0B);
+    grid-column: 1 / 10;
+    grid-row: 1 / 1;
+    border-radius: 2px;
+    text-shadow: 3px 3px 10px #000000;
+}
+
+.code-red-description {
+    font-size: 25px;
+    margin-top: 0;
+    padding-left: 5px;
+    border-radius: 2px;
+    background: none;
+}
+
+.code-red-preview {
+    background-color: #d3d3d3;
+    grid-column: 10 / 13;
+    border-radius: 2px;
+}
+
+.code-red-product1 {
+    background-image: url(/images/red/guns/handgun/derringer/bond\ arms\ cowboy.png);
+    background-size: cover;
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 1 / 1;
+    border-radius: 2px;
+}
+
+.code-red-product2 {
+    background-image: url(/images/red/guns/handgun/derringer/Bond\ Arms\ Patriot\ Defender.png);
+    background-size: cover;
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 3 / 3;
+    border-radius: 2px;
+}
+
+.code-red-product3 {
+    background-image: url(/images/red/guns/handgun/pistol/Akdal\ Ghost\ TR01.png);
+    background-size: cover;
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 5 / 5;
+    border-radius: 2px;
+}
+
+.code-red-product4 {
+    background-image: url(/images/red/guns/handgun/pistol/Arsenal\ Firearms\ AF1.png);
+    background-size: cover;
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 7 / 7;
+    border-radius: 2px;
+}
+
+.code-red-product5 {
+    background-image: url(/images/red/guns/handgun/revolver/Ruger\ Blackhawk.png);
+    background-size: cover;
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 9 / 11;
+    border-radius: 2px;
+}
+
+.code-red-product6 {
+    background-image: url(/images/red/weapons/bombet.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #d3d3d3;
+    padding-top: 40%;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(148, 148, 148);
+    grid-row: 3 / 3;
+    grid-column: 12 / 12;
+    border-radius: 2px;
+}
+
+
+/* container ng CODE PURPLE*/
+
+.code-purple-container {
+    display: grid;
+    grid-template-columns: 150px 20px 150px 20px 150px 20px 150px 20px 100px 50px 20px 150px;
+    grid-template-rows: 300px 20px 150px;
+    justify-content: center;
+}
+
+.code-purple {
+    grid-row: 1 / 1;
+    margin-bottom: 0;
+    padding-top: 10%;
+    padding-left: 5%;
+    font-size: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #5E548E, #1A1828);
+    grid-column: 1 / 10;
+    border-radius: 2px;
+    text-shadow: 3px 3px 10px #000000;
+}
+
+.code-purple-description {
+    font-size: 25px;
+    margin-top: 0;
+    padding-left: 5px;
+    border-radius: 2px;
+    background: none;
+}
+
+.code-purple-preview {
+    background-color: #d3d3d3;
+    grid-column: 10 / 13;
+    border-radius: 2px;
+}
+
+.code-purple-product1 {
+    background-image: url(/images/purple/hidden\ camera.png);
+    background-size: cover;
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 1 / 1;
+    border-radius: 2px;
+}
+
+.code-purple-product2 {
+    background-image: url(/images/purple/listening\ device.png);
+    background-size: cover;
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 3 / 3;
+    border-radius: 2px;
+}
+
+.code-purple-product3 {
+    background-image: url(/images/purple/lock\ picks.png);
+    background-size: cover;
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 5 / 5;
+    border-radius: 2px;
+}
+
+.code-purple-product4 {
+    background-image: url(/images/purple/mini\ drones.png);
+    background-size: cover;
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 7 / 7;
+    border-radius: 2px;
+}
+
+.code-purple-product5 {
+    background-image: url(/images/purple/signal\ jammer.png);
+    background-size: cover;
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 9 / 11;
+    border-radius: 2px;
+}
+
+.code-purple-product6 {
+    background-image: url(/images/purple/tracking\ device.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #d3d3d3;
+    padding-top: 40%;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(148, 148, 148);
+    grid-row: 3 / 3;
+    grid-column: 12 / 12;
+    border-radius: 2px;
+}
+
+/* container ng CODE YELLOW*/
+
+.code-yellow-container {
+    display: grid;
+    grid-template-columns: 150px 20px 150px 20px 150px 20px 150px 20px 100px 50px 20px 150px;
+    grid-template-rows: 300px 20px 150px;
+    justify-content: center;
+}
+
+.code-yellow {
+    grid-row: 1 / 1;
+    margin-bottom: 0;
+    padding-top: 10%;
+    padding-left: 5%;
+    font-size: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #ECD057, #867631);
+    grid-column: 1 / 10;
+    border-radius: 2px;
+    text-shadow: 3px 3px 10px #000000;
+}
+
+.code-yellow-description {
+    font-size: 25px;
+    margin-top: 0;
+    padding-left: 5px;
+    border-radius: 2px;
+    background: none;
+}
+
+.code-yellow-preview {
+    background-color: #d3d3d3;
+    grid-column: 10 / 13;
+    border-radius: 2px;
+}
+
+.code-yellow-product1 {
+    background-image: url(/images/yellow/ammonia.png);
+    background-size: cover;
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 1 / 1;
+    border-radius: 2px;
+}
+
+.code-yellow-product2 {
+    background-image: url(/images/yellow/bleach.png);
+    background-size: cover;
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 3 / 3;
+    border-radius: 2px;
+}
+
+.code-yellow-product3 {
+    background-image: url(/images/yellow/hydrogen\ peroxide.png);
+    background-size: cover;
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 5 / 5;
+    border-radius: 2px;
+}
+
+.code-yellow-product4 {
+    background-image: url(/images/yellow/isoprophyl\ alcohol.png);
+    background-size: cover;
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 7 / 7;
+    border-radius: 2px;
+}
+
+.code-yellow-product5 {
+    background-image: url(/images/yellow/latex\ gloves.png);
+    background-size: cover;
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 9 / 11;
+    border-radius: 2px;
+}
+
+.code-yellow-product6 {
+    background-image: url(/images/yellow/biohazard\ waste\ bag.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #d3d3d3;
+    padding-top: 40%;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(148, 148, 148);
+    grid-row: 3 / 3;
+    grid-column: 12 / 12;
+    border-radius: 2px;
+}
+
+/* container ng CODE GREEN*/
+
+.code-green-container {
+    display: grid;
+    grid-template-columns: 150px 20px 150px 20px 150px 20px 150px 20px 100px 50px 20px 150px;
+    grid-template-rows: 300px 20px 150px;
+    justify-content: center;
+}
+
+.code-green {
+    grid-row: 1 / 1;
+    margin-bottom: 0;
+    padding-top: 10%;
+    padding-left: 5%;
+    font-size: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #5D8E77, #1A2822);
+    grid-column: 1 / 10;
+    border-radius: 2px;
+    text-shadow: 3px 3px 10px #000000;
+}
+
+.code-green-description {
+    font-size: 25px;
+    margin-top: 0;
+    padding-left: 5px;
+    border-radius: 2px;
+    background: none;
+}
+
+.code-green-preview {
+    background-color: #d3d3d3;
+    grid-column: 10 / 13;
+    border-radius: 2px;
+}
+
+.code-green-product1 {
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 1 / 1;
+    border-radius: 2px;
+}
+
+.code-green-product2 {
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 3 / 3;
+    border-radius: 2px;
+}
+
+.code-green-product3 {
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 5 / 5;
+    border-radius: 2px;
+}
+
+.code-green-product4 {
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 7 / 7;
+    border-radius: 2px;
+}
+
+.code-green-product5 {
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 9 / 11;
+    border-radius: 2px;
+}
+
+.code-green-product6 {
+    color: #000000;
+    padding-top: 50%;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #d3d3d3;
+    grid-row: 3 / 3;
+    grid-column: 12 / 12;
+    border-radius: 2px;
+}
+
+
+/* LINE SA ILALIM */
+.bottom-line {
+    color: white;
+    width: 1140px;
+}
+
+/* FOOTNOTE */
+.footnote { 
+    justify-content: center;
+    line-height: 30px;
+    display: grid;
+    grid-template-columns: 200px  200px  200px;
+    gap: 30px;
+}
+
+.categories {
+    grid-column: 1 / 1;;
+}
+
+.company-info {
+    grid-column: 2 / 2;
+}
+
+.support {
+    grid-column: 3 / 3;
+}
+
+.footnote-title {
+    font-weight: bold;
+}
+
+.copyright {
+    color: #aaaaaa;
+    text-align: center;
+    font-size: 11px;
+    background-color: #290708;
+}
+
+
+.categories li a {
+    color: #aaaaaa;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.categories li a:hover {
+    color: #d3d3d3;
+}
+
+.company-info li a {
+    color: #aaaaaa;
+    font-size: 13px;
+    cursor: pointer;
+}
+.company-info li a:hover {
+    color: #d3d3d3;
+}
+
+
+.support li a {
+    color: #aaaaaa;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.support li a:hover {
+    color: #d3d3d3;
+}

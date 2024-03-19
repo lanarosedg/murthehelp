@@ -1,0 +1,365 @@
+* {
+    background-color: #000000;
+    font-family: "Poppins", sans-serif;
+    color:  #e4e4e4;
+    letter-spacing: 2px;
+}
+
+
+.first-screen {
+    height: 95vh;
+}
+
+
+/* ABOUT & SIGNUP */
+
+li button {
+    border-style: none;
+}
+.signup {
+    margin-top: 0;
+    border-color: #D22C26;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* CONTAINER INCLUDING: LOGIN & IMAGE */
+.container {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: grid;
+    grid-template-rows: 20px 30px 1px 100px 220px 10px 100px;
+    grid-template-columns: 200px 1fr 100px 700px 1fr;
+
+}
+
+/* MURTHEHELP LOGO SA GEDLI */
+.logo-space {
+    float: left;
+}
+
+.logo-text {
+    color: #D22C26;
+}
+
+/* MENU SA TAAS */
+.navigation {
+    grid-row: 2 / 3;
+    grid-column: 1 / 6;
+}
+
+li {
+    list-style: none;
+    padding-right: 30px;
+}
+
+.menu {
+    float: right;
+    display: inline-flex;
+}
+
+.about:hover {
+    color: #929292;
+}
+
+.signup:hover {
+    border-color: #862420;
+    color: #929292;
+}
+
+/* YUNG LINE DON SA TAAS */
+.line {
+    grid-row: 3 / 3;
+    grid-column: 1 / 6;
+}
+
+/* color menu sa gitna */
+.color {
+    display: inline-flex;
+    margin-left: 28%;
+}
+
+.color li {
+    padding-right: 30px;
+    text-align: center;
+}
+
+
+
+/* SA TAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAS HIHIHIIHIHIHIHIHIH */
+.code-green-top-container {
+    display: grid;
+    grid-template-rows: 10px 350px 100px;
+    grid-template-columns: 15px 465px 465px 465px 15px;
+}
+
+.code-green-top-title {
+    margin-bottom: 0;
+    padding-top: 4%;
+    padding-left: 5%;
+    font-size: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #5D8E77, #1A2822);
+    grid-row: 2 / 2;
+    grid-column: 1 / 5;
+    border-radius: 2px;
+    text-shadow: 3px 3px 10px #000000;
+}
+
+.code-green-top-description {
+    font-size: 25px;
+    margin-top: 0;
+    padding-left: 5px;
+    border-radius: 2px;
+    background: none;
+}
+
+/* INFO */
+
+.accounts-container {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 700px 700px 700px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.acc1 {
+    background-color: #242424;
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+}
+
+.acc1-image{
+    background-color: #585858;
+    width: 506px;
+    height: 350px;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acc1-description {
+    background: none;
+    width: 506px;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acc2 {
+    background-color: #242424;
+    grid-row: 1 / 1;
+    grid-column: 2 / 2;
+}
+
+.acc2-image{
+    background-color: #585858;
+    width: 506px;
+    height: 350px;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acc2-description {
+    background: none;
+    width: 506px;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.acc3 {
+    background-color: #242424;
+    grid-row: 2 / 2;
+    grid-column: 1 / 1;
+}
+
+.acc3-image{
+    background-color: #585858;
+    width: 506px;
+    height: 350px;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acc3-description {
+    background: none;
+    width: 506px;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.acc4 {
+    background-color: #242424;
+    grid-row: 2 / 2;
+    grid-column: 2 / 2;
+}
+
+.acc4-image{
+    background-color: #585858;
+    width: 506px;
+    height: 350px;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acc4-description {
+    background: none;
+    width: 506px;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.acc5 {
+    background-color: #242424;
+    grid-row: 3 / 3;
+    grid-column: 1 / 1;
+}
+
+.acc5-image{
+    background-color: #585858;
+    width: 506px;
+    height: 350px;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.acc5-description {
+    background: none;
+    width: 506px;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.acc6 {
+    background-color: #242424;
+    grid-row: 3 / 3;
+    grid-column: 2 / 2;
+}
+
+.acc6-image{
+    background-color: #585858;
+    width: 506px;
+    height: 350px;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acc6-description {
+    background: none;
+    width: 506px;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-bold {
+    background: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.more-description {
+    font-size: 13px;
+    background: none;
+    color: #b9b9b9;
+}
+
+/* LINE SA ILALIM */
+.bottom-line {
+    color: white;
+    width: 1140px;
+}
+
+/* FOOTNOTE */
+.footnote {
+    justify-content: center;
+    line-height: 30px;
+    display: grid;
+    grid-template-columns: 200px  200px  200px;
+    gap: 30px;
+}
+
+.categories {
+    grid-column: 1 / 1;;
+}
+
+.company-info {
+    grid-column: 2 / 2;
+}
+
+.support {
+    grid-column: 3 / 3;
+}
+
+.footnote-title {
+    font-weight: bold;
+}
+
+.copyright {
+    color: #aaaaaa;
+    text-align: center;
+    font-size: 11px;
+    background-color: #290708;
+}
+
+
+.categories li a {
+    color: #aaaaaa;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.categories li a:hover {
+    color: #d3d3d3;
+}
+
+.company-info li a {
+    color: #aaaaaa;
+    font-size: 13px;
+    cursor: pointer;
+}
+.company-info li a:hover {
+    color: #d3d3d3;
+}
+
+
+.support li a {
+    color: #aaaaaa;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.support li a:hover {
+    color: #d3d3d3;
+}
+

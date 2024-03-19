@@ -1,0 +1,13 @@
+* {
+    background-color: #1F1717;
+    font-family: "Poppins", sans-serif;
+    color:  #e4e4e4;
+    letter-spacing: 2px;
+    color: #D22C26;
+}
+
+.text {
+    font-size: 72px;
+    text-align: center;
+    margin-top: 18%;
+}

@@ -1,0 +1,185 @@
+* {
+    background-color: #000000;
+    font-family: "Poppins", sans-serif;
+    color:  #e4e4e4;
+    letter-spacing: 2px;
+}
+
+/* ABOUT & SIGNUP */
+
+li button {
+    border-style: none;
+}
+.signup {
+    margin-top: 0;
+    border-color: #D22C26;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* CONTAINER INCLUDING: LOGIN & IMAGE */
+.container {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: grid;
+    grid-template-rows: 20px 30px 1px 100px 80px 200px 200px ;
+    grid-template-columns: 200px 1fr 100px 700px 1fr;
+}
+
+/* MURTHEHELP LOGO SA GEDLI */
+.logo-space {
+    float: left;
+}
+
+.logo-text {
+    color: #D22C26;
+}
+
+/* MENU SA TAAS */
+.navigation {
+    grid-row: 2 / 3;
+    grid-column: 1 / 6;
+}
+
+li {
+    list-style: none;
+    padding-right: 30px;
+}
+
+.menu {
+    float: right;
+    display: inline-flex;
+}
+
+.about:hover {
+    color: #929292;
+}
+
+.signup:hover {
+    border-color: #862420;
+    color: #929292;
+}
+
+/* YUNG LINE DON SA TAAS */
+.line {
+    grid-row: 3 / 3;
+    grid-column: 1 / 6;
+}
+
+/* YUNG IMAGE */
+.image-container {
+    grid-column: 2 / 3;     
+    grid-row: 5 / 6;
+}
+
+.image {
+    border-radius: 700px;
+    margin: 0;
+    width: 550px;
+}
+
+/* LOGIN TEXT SA TAAS NG EMAIL FORM*/
+
+#login-text {
+    font-size: 48px;
+    font-weight: 600;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+/* BUONG FORM CONTAINER INCLUDING: INPUT EMAIL, INPUT PASSWORD, LOGIN BUTTON, & FORGOT PASSWORD */
+
+.form-container {
+    grid-row: 6 / 6;
+    grid-column: 4 / 4;
+}
+
+.login-center {
+    text-align: center;
+}
+
+#main-holder {
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: none;
+    border-radius: 20px;
+    background-color: #D22C26;
+    height: 20px;
+    width: 659px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+input:active {
+    background-color: #862420;
+}
+
+input::placeholder {
+    color:#e4e4e4;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#login-form-submit {
+    background-color: #e4e4e4;
+    color: #1F1717;
+    font-weight: 700;
+    padding-top: 15px;
+    margin-bottom: 1%;
+    width: 100px;
+    height: 50px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+#login-form-submit:hover {
+    background-color: #6b6b6b;
+}
+
+
+
+.forgot {
+    font-size: 12px;;
+    text-decoration: underline;
+    color:#8b8b8b
+}
+
+.forgot:hover {
+    color: #D22C26;
+}
+
+#login-error-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#login-error-msg {
+    width: 500px;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #D22C26;
+    border: 1px solid #D22C26;
+    opacity: 0;
+}
+
+input[name] {
+    padding-left: 30px;
+}
+
+

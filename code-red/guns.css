@@ -1,0 +1,569 @@
+* {
+    background-color: #000000;
+    font-family: "Poppins", sans-serif;
+    color:  #e4e4e4;
+    letter-spacing: 2px;
+}
+
+
+.first-screen {
+    height: 95vh;
+}
+
+
+/* ABOUT & SIGNUP */
+
+li button {
+    border-style: none;
+}
+.signup {
+    margin-top: 0;
+    border-color: #D22C26;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* CONTAINER INCLUDING: LOGIN & IMAGE */
+.container {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: grid;
+    grid-template-rows: 20px 30px 1px 100px 220px 10px 100px;
+    grid-template-columns: 200px 1fr 100px 700px 1fr;
+
+}
+
+/* MURTHEHELP LOGO SA GEDLI */
+.logo-space {
+    float: left;
+}
+
+.logo-text {
+    color: #D22C26;
+}
+
+/* MENU SA TAAS */
+.navigation {
+    grid-row: 2 / 3;
+    grid-column: 1 / 6;
+}
+
+li {
+    list-style: none;
+    padding-right: 30px;
+}
+
+.menu {
+    float: right;
+    display: inline-flex;
+}
+
+/* YUNG LINE DON SA TAAS */
+.line {
+    grid-row: 3 / 3;
+    grid-column: 1 / 6;
+}
+
+/* color menu sa gitna */
+.color {
+    display: inline-flex;
+    margin-left: 28%;
+}
+
+.color li {
+    padding-right: 30px;
+    text-align: center;
+}
+
+
+/* SA TAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAS HIHIHIIHIHIHIHIHIH */
+.code-red-top-container { 
+    display: grid;
+    grid-template-rows: 10px 350px 100px;
+    grid-template-columns: 15px 465px 465px 465px 15px;
+}
+
+.code-red-top-title {
+    margin-bottom: 0;
+    padding-top: 4%;
+    padding-left: 5%;
+    font-size: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #9B1D20, #350A0B);
+    grid-row: 2 / 2;
+    grid-column: 1 / 5;
+    border-radius: 2px;
+    text-shadow: 3px 3px 10px #000000;
+}
+
+.code-red-top-description {
+    font-size: 25px;
+    margin-top: 0;
+    padding-left: 5px;
+    border-radius: 2px;
+    background: none;
+}
+
+/****** END *********/
+
+.code-red-buttons-container {
+    grid-row: 6/7;
+    width: 1400px;
+    justify-content: center;
+    text-align: center;
+}
+.code-red-buttons {
+    background: none;
+    padding: 10px 75px 10px 75px;
+    border-style: none;
+}
+
+.code-red-buttons:hover {
+    background-color: #5a5a5a;
+    border-radius: 5px;
+}
+
+
+/* DERRINGER */
+
+.derringer-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 250px 40px 250px 40px 250px 30px 250px;
+    grid-template-rows: 20px 100px 250px 100px 30px 250px 100px;
+}
+
+.derringer-top-title {
+    grid-row: 2 / 2;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+.title-bold {
+    font-weight: bold;
+}
+
+.description-18px {
+    font-size: 13px;
+}
+.derringer-sort-container {
+    grid-row: 1 / 1;
+    grid-column: 7 / 7;
+    border: none;
+    margin-top: 15%;
+}
+
+.derringer-sort-link {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e4e4;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+
+.derringer-product1 {
+    background-image: url(/images/red/guns/handgun/derringer/bond\ arms\ cowboy.png);
+    background-size: cover;
+    grid-row: 3 / 3;
+}
+
+.derringer-product1-description {
+    margin-top: 5%;
+    grid-row: 4 / 4;
+}
+
+.derringer-product2 {
+    background-image: url(/images/red/guns/handgun/derringer/Bond\ Arms\ Patriot\ Defender.png);
+    background-size: cover;
+    grid-row: 3 / 3;
+    grid-column: 3 / 3;
+}
+
+.derringer-product2-description {
+    margin-top: 5%;
+    grid-row: 4 / 4;
+    grid-column: 3 / 3;
+}
+
+.derringer-product3 {
+    background-image: url(/images/red/guns/handgun/derringer/Bond\ Arms\ Ranger.png);
+    background-size: cover;
+    grid-row: 3 / 3;
+    grid-column: 5 / 5;
+}
+
+.derringer-product3-description {
+    margin-top: 5%;
+    grid-row: 4 / 4;
+    grid-column: 5 / 5;
+}
+
+.derringer-product4 {
+    background-image: url(/images/red/guns/handgun/derringer/bond\ arms\ snakeslayer.png);
+    background-size: cover;
+    grid-row: 3 / 3;
+    grid-column: 7 / 7;
+}
+
+.derringer-product4-description {
+    margin-top: 5%;
+    grid-row: 4 / 4;
+    grid-column: 7 / 7;
+}
+
+.derringer-product5 {
+    background-image: url(/images/red/guns/handgun/derringer/bond\ arms\ texas.png);
+    background-size: cover;
+    grid-row: 6 / 6;
+}
+
+.derringer-product5-description {
+    margin-top: 5%;
+    grid-row: 7 / 7;
+}
+
+.derringer-product6 {
+    background-image: url(/images/red/guns/handgun/derringer/Heizer\ DoubleTap.png);
+    background-size: cover;
+    grid-row: 6 / 6;
+    grid-column: 3 / 3;
+}
+
+.derringer-product6-description {
+    margin-top: 5%;
+    grid-row: 7 / 7;
+    grid-column: 3 / 3;
+
+}
+
+
+/* PISTOL */
+
+.pistol-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 250px 40px 250px 40px 250px 30px 250px;
+    grid-template-rows: 20px 100px 250px 100px 30px 250px 100px;
+}
+
+.pistol-top-title {
+    grid-row: 2 / 2;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+.title-bold {
+    font-weight: bold;
+}
+
+.description-18px {
+    font-size: 13px;
+}
+.pistol-sort-container {
+    grid-row: 1 / 1;
+    grid-column: 7 / 7;
+    border: none;
+    margin-top: 15%;
+}
+
+.pistol-sort-link {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e4e4;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+
+.pistol-product1 {
+    background-image: url(/images/red/guns/handgun/pistol/Akdal\ Ghost\ TR01.png);
+    background-size: cover;
+    grid-row: 3 / 3;
+}
+
+.pistol-product1-description {
+    margin-top: 5%;
+    grid-row: 4 / 4;
+}
+
+.pistol-product2 {
+    background-image: url(/images/red/guns/handgun/pistol/Arsenal\ Firearms\ AF1.png);
+    background-size: cover;
+    grid-row: 3 / 3;
+    grid-column: 3 / 3;
+}
+
+.pistol-product2-description {
+    margin-top: 5%;
+    grid-row: 4 / 4;
+    grid-column: 3 / 3;
+}
+
+.pistol-product3 {
+    background-image: url(/images/red/guns/handgun/pistol/Arsenal\ P-M02.png);
+    background-size: cover;
+    grid-row: 3 / 3;
+    grid-column: 5 / 5;
+}
+
+.pistol-product3-description {
+    margin-top: 5%;
+    grid-row: 4 / 4;
+    grid-column: 5 / 5;
+}
+
+.pistol-product4 {
+    background-image: url(/images/red/guns/handgun/pistol/Beretta\ 92.png);
+    background-size: cover;
+    grid-row: 3 / 3;
+    grid-column: 7 / 7;
+}
+
+.pistol-product4-description {
+    margin-top: 5%;
+    grid-row: 4 / 4;
+    grid-column: 7 / 7;
+}
+
+.pistol-product5 {
+    background-image: url(/images/red/guns/handgun/pistol/Berette\ Cheetah.png);
+    background-size: cover;
+    grid-row: 6 / 6;
+}
+
+.pistol-product5-description {
+    margin-top: 5%;
+    grid-row: 7 / 7;
+}
+
+.pistol-product6 {
+    background-image: url(/images/red/guns/handgun/pistol/Bul\ M-5.png);
+    background-size: cover;
+    grid-row: 6 / 6;
+    grid-column: 3 / 3;
+}
+
+.pistol-product6-description {
+    margin-top: 5%;
+    grid-row: 7 / 7;
+    grid-column: 3 / 3;
+
+}
+
+
+/* REVOLVER */
+
+.revolver-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 250px 40px 250px 40px 250px 30px 250px;
+    grid-template-rows: 20px 100px 250px 100px 30px 250px 100px;
+}
+
+.revolver-top-title {
+    grid-row: 2 / 2;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+.title-bold {
+    font-weight: bold;
+}
+
+.description-18px {
+    font-size: 13px;
+}
+.revolver-sort-container {
+    grid-row: 1 / 1;
+    grid-column: 7 / 7;
+    border: none;
+    margin-top: 15%;
+}
+
+.revolver-sort-link {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e4e4;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+
+.revolver-product1 {
+    background-image: url(/images/red/guns/handgun/revolver/Charter\ Arms\ Bulldog.png);
+    background-size: cover;
+    grid-row: 3 / 3;
+}
+
+.revolver-product1-description {
+    margin-top: 5%;
+    grid-row: 4 / 4;
+}
+
+.revolver-product2 {
+    background-image: url(/images/red/guns/handgun/revolver/Chiappa\ Rhino.png);
+    background-size: cover;
+    grid-row: 3 / 3;
+    grid-column: 3 / 3;
+}
+
+.revolver-product2-description {
+    margin-top: 5%;
+    grid-row: 4 / 4;
+    grid-column: 3 / 3;
+}
+
+.revolver-product3 {
+    background-image: url(/images/red/guns/handgun/revolver/Colt\ Python.png);
+    background-size: cover;
+    grid-row: 3 / 3;
+    grid-column: 5 / 5;
+}
+
+.revolver-product3-description {
+    margin-top: 5%;
+    grid-row: 4 / 4;
+    grid-column: 5 / 5;
+}
+
+.revolver-product4 {
+    background-image: url(/images/red/guns/handgun/revolver/Ruger\ Anaconda.png);
+    background-size: cover;
+    grid-row: 3 / 3;
+    grid-column: 7 / 7;
+}
+
+.revolver-product4-description {
+    margin-top: 5%;
+    grid-row: 4 / 4;
+    grid-column: 7 / 7;
+}
+
+.revolver-product5 {
+    background-image: url(/images/red/guns/handgun/revolver/Ruger\ Bearcat.png);
+    background-size: cover;
+    grid-row: 6 / 6;
+}
+
+.revolver-product5-description {
+    margin-top: 5%;
+    grid-row: 7 / 7;
+}
+
+.revolver-product6 {
+    background-image: url(/images/red/guns/handgun/revolver/Ruger\ Blackhawk.png);
+    background-size: cover;
+    grid-row: 6 / 6;
+    grid-column: 3 / 3;
+}
+
+.revolver-product6-description {
+    margin-top: 5%;
+    grid-row: 7 / 7;
+    grid-column: 3 / 3;
+
+}
+
+.revolver-product7 {
+    background-image: url(/images/red/guns/handgun/revolver/Ruger\ GP100.png);
+    background-size: cover;
+    grid-row: 6 / 6;
+    grid-column: 5 / 5;
+}
+
+.revolver-product7-description {
+    margin-top: 5%;
+    grid-column: 5 / 5;
+    grid-row: 7 / 7;
+}
+
+.revolver-product8 {
+    background-image: url(/images/red/guns/handgun/revolver/Smith\ &\ Wesson\ Model\ 60.png);
+    background-size: cover;
+    grid-row: 6 / 6;
+    grid-column: 7 / 7;
+}
+
+.revolver-product8-description {
+    margin-top: 5%;
+    grid-row: 7 / 7;
+    grid-column: 7 / 7;
+
+}
+
+/* LINE SA ILALIM */
+.bottom-line {
+    color: white;
+    width: 1140px;
+}
+
+/* FOOTNOTE */
+.footnote {
+    justify-content: center;
+    line-height: 30px;
+    display: grid;
+    grid-template-columns: 200px  200px  200px;
+    gap: 30px;
+}
+
+.categories {
+    grid-column: 1 / 1;;
+}
+
+.company-info {
+    grid-column: 2 / 2;
+}
+
+.support {
+    grid-column: 3 / 3;
+}
+
+.footnote-title {
+    font-weight: bold;
+}
+
+.copyright {
+    color: #aaaaaa;
+    text-align: center;
+    font-size: 11px;
+    background-color: #290708;
+}
+
+
+.categories li a {
+    color: #aaaaaa;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.categories li a:hover {
+    color: #d3d3d3;
+}
+
+.company-info li a {
+    color: #aaaaaa;
+    font-size: 13px;
+    cursor: pointer;
+}
+.company-info li a:hover {
+    color: #d3d3d3;
+}
+
+
+.support li a {
+    color: #aaaaaa;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.support li a:hover {
+    color: #d3d3d3;
+}
