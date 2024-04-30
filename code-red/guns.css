@@ -567,3 +567,10 @@ li {
 .support li a:hover {
     color: #d3d3d3;
 }
+
+
+/* yung weapons button na nakaactive*/
+#code-red-buttons-guns {
+    background-color: #5a5a5a;
+    border-radius: 5px;
+}

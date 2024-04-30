@@ -316,3 +316,8 @@ li {
     color: #d3d3d3;
 }
 
+/* yung ammos button na nakaactive*/
+#code-red-buttons-ammos {
+    background-color: #5a5a5a;
+    border-radius: 5px;
+}

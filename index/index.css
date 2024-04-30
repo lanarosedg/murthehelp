@@ -11,12 +11,13 @@ li button {
     border-style: none;
 }
 .signup {
-    margin-top: 0;
+    margin-top: -5%;
     border-color: #D22C26;
     border-width: 2px;
     border-style: solid;
     padding: 5px 15px 5px 15px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 a {
@@ -30,7 +31,7 @@ a {
     margin-right: 30px;
     display: grid;
     grid-template-rows: 20px 30px 1px 100px 80px 200px 200px ;
-    grid-template-columns: 200px 1fr 100px 700px 1fr;
+    grid-template-columns: 250px 250px 200px 500px 220px;
 }
 
 /* MURTHEHELP LOGO SA GEDLI */
@@ -75,7 +76,8 @@ li {
 
 /* YUNG IMAGE */
 .image-container {
-    grid-column: 2 / 3;     
+    margin-left: 20%;
+    grid-column: 1 / 2;     
     grid-row: 5 / 6;
 }
 
@@ -115,7 +117,7 @@ input {
     border-radius: 20px;
     background-color: #D22C26;
     height: 20px;
-    width: 659px;
+    width: 600px;
     padding-bottom: 10px;
     padding-top: 10px;
 }
@@ -135,7 +137,8 @@ input::placeholder {
     color: #1F1717;
     font-weight: 700;
     padding-top: 15px;
-    margin-bottom: 1%;
+    margin-left: 52%;
+    margin-right: 40%;
     width: 100px;
     height: 50px;
     border-radius: 40px;
@@ -149,6 +152,7 @@ input::placeholder {
 
 
 .forgot {
+    margin-left: 24%;
     font-size: 12px;;
     text-decoration: underline;
     color:#8b8b8b
@@ -182,4 +186,88 @@ input[name] {
     padding-left: 30px;
 }
 
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
+  /* Modal Content/Box */
+.modal-content {
+    background-color: #fff9f9;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 40%;
+    height: 45%;
+    border-top-color: #d3d3d3;
+    border-style:groove;
+    border-width: 5%;
+}
+
+  /* Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #fff9f9;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.create {
+    margin-top: 5%;
+    color: black;
+    font-weight: 600;
+    background-color: #fff9f9;
+    font-size: 28px;
+}
+
+.container-input::placeholder {
+    color: black;
+}
+
+
+.container-input {
+    border-color:rgb(216, 0, 0);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: rgb(241, 241, 241);
+    width: 500px;
+    height: 10px;
+    padding-left: 5%;
+    margin-bottom: 2%;
+}
+
+.container-modal {
+    background-color: #fff9f9;
+    margin-left: 6%;
+}
+
+.modal-signup {
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    margin-left: 27%;
+    cursor: pointer;
+}
+
+.modal-signup:hover {
+    background-color: #1d1d1d;
+}

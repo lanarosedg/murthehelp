@@ -1,0 +1,57 @@
+* {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+.container{
+    background-color: #fff9f9;
+    height: 300px;
+    width: 550px;
+    border-radius: 10px;
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 3%;
+    margin-top: 5%;
+    margin-left:auto;
+    margin-right:auto;
+    border-top-color: #d3d3d3;
+    border-style:groove;
+    border-width: 5%;
+}
+
+.create {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+div input {
+    border-color:rgb(216, 0, 0);
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+    width: 400px;
+    padding-left: 5%;
+    margin-bottom: 2%;
+}
+
+
+.signup{
+    background-color: black;
+    color: #d3d3d3;
+    width: 150px;
+    border-radius: 20px;
+    border-style: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    margin-top: 2%;
+    cursor: pointer;
+    margin-left: 32%;
+}
+
+.signup:hover {
+    background-color: rgb(27, 6, 6);
+}

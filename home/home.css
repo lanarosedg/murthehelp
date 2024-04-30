@@ -179,6 +179,7 @@ li {
     grid-row: 3 / 3;
     grid-column: 12 / 12;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 
@@ -277,6 +278,7 @@ li {
     grid-row: 3 / 3;
     grid-column: 12 / 12;
     border-radius: 2px;
+    cursor:pointer;
 }
 
 /* container ng CODE YELLOW*/
@@ -374,6 +376,7 @@ li {
     grid-row: 3 / 3;
     grid-column: 12 / 12;
     border-radius: 2px;
+    cursor:pointer;
 }
 
 /* container ng CODE GREEN*/
@@ -458,6 +461,7 @@ li {
     grid-row: 3 / 3;
     grid-column: 12 / 12;
     border-radius: 2px;
+    cursor:pointer;
 }
 
 
@@ -528,4 +532,27 @@ li {
 
 .support li a:hover {
     color: #d3d3d3;
+}
+
+
+/* LOGOUT */
+#logoutBtn {
+    border-style: none;
+    cursor: pointer;
+}
+
+#logoutBtn:hover {
+    color: #9B1D20;
+}
+
+/* home page image */
+.home-page-image {
+    width: 1200px;
+    height: 600px;  
+    background-image: url(/home-page-front.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 50%;
+    margin-left: 50%;
+    opacity: 50%;
 }
